@@ -96,6 +96,8 @@ N4BiasFieldCorrection.""" % _ants_version, DeprecationWarning)
             ('bias_image', 'bias_image')]),
     ])
 
+    return wf
+
 
 def init_anat_preproc_wf(
         bids_root, freesurfer, hires, longitudinal, omp_nthreads, output_dir,
